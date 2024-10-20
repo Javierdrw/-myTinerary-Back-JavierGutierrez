@@ -1,0 +1,31 @@
+{
+  "name": "mytinerary-back-javiergutierrez",
+  "version": "1.0.0",
+  "description": "Este servidor sera utilizado para el manejo de la data de la pagina MyTynerari una pagina dedicada al turismo ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javierdrw/-myTinerary-Back-JavierGutierrez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javierdrw/-myTinerary-Back-JavierGutierrez/issues"
+  },
+  "homepage": "https://github.com/Javierdrw/-myTinerary-Back-JavierGutierrez#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
