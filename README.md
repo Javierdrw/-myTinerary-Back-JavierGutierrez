@@ -1,33 +1,31 @@
-# Configuración del Servidor
 
-Configure el servidor necesario para la aplicación.
+# MyTinerary Backend - Javier Gutiérrez
 
-## Base de Datos
+Este es el servidor backend para la página **MyTinerary**, un proyecto dedicado al turismo. Este servidor se encarga de manejar la data de ciudades, países y otros aspectos relacionados con los destinos turísticos.
 
-Configure la base de datos y cree la colección **Cities**.
+## Características
 
-## Modelo City
+- Creado con **Node.js** y **Express**.
+- Conectado a una base de datos MongoDB mediante **Mongoose**.
+- Soporta operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre ciudades.
+- Maneja rutas para obtener los detalles de cada ciudad.
+- Utiliza **dotenv** para la configuración de variables de entorno.
+- Incluye **cors** para manejar solicitudes entre dominios.
+- Logger integrado con **morgan** para capturar las solicitudes en la consola.
+- Desarrollo más rápido con recarga automática usando **nodemon**.
 
-Desarrolle el modelo **City** que incluya al menos:
+## Requisitos
 
-- **Nombre de la ciudad**
-- **Foto** (link web o ruta/nombre de archivo local)
-- **País** al que pertenece
+- **Node.js** (v14 o superior).
+- **MongoDB** (local o en la nube, por ejemplo, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)).
+- **NPM** (Administrador de paquetes de Node.js).
 
-Puede agregar más propiedades para funcionalidades adicionales, por ejemplo:
+## Instalación
 
-- **Continente**
-- **Descripción**
-- **Divisa**, entre otros.
+Sigue los siguientes pasos para ejecutar el servidor en tu entorno local:
 
-## Rutas y Controladores
+### 1. Clonar el Repositorio
 
-Configure el router y desarrolle los controladores necesarios para:
-
-- **Cargar una ciudad**.
-- **Obtener todas las ciudades**.
-- **Obtener una ciudad específica** por su ID.
-- **Modificar una ciudad**.
-- **Borrar una ciudad**.
-
-> **Nota**: Aunque los controladores de modificar, cargar y borrar no se utilicen en el frontend, deben estar disponibles para pruebas con herramientas como **Insomnia** o **Postman**.
+```bash
+git clone https://github.com/Javierdrw/-myTinerary-Back-JavierGutierrez.git
+cd mytinerary-back-javiergutierrez
