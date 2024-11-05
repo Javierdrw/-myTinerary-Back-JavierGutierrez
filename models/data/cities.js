@@ -22,7 +22,8 @@ let cities = [
   },
   {
     Name: "Paris",
-    Photo: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1",
+    Photo:
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1",
     Country: "France",
     Continent: "Europe",
     Description:
@@ -40,7 +41,8 @@ let cities = [
 
   {
     Name: "New York City",
-    Photo: "https://images.ecestaticos.com/53658fMeOfqKPvvtiGn9aVp2-U4=/1x1:1998x1497/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F07d%2Fc11%2Fd3c%2F07dc11d3c1bae66ffcfe469598f61e59.jpg",
+    Photo:
+      "https://images.ecestaticos.com/53658fMeOfqKPvvtiGn9aVp2-U4=/1x1:1998x1497/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F07d%2Fc11%2Fd3c%2F07dc11d3c1bae66ffcfe469598f61e59.jpg",
     Country: "United States",
     Continent: "North America",
     Description:
@@ -57,7 +59,8 @@ let cities = [
   },
   {
     Name: "Cairo",
-    Photo: "https://www.cloud-europamundo.com/img/carousel/hd/El%20Cairo_20210223144606.jpg",
+    Photo:
+      "https://www.cloud-europamundo.com/img/carousel/hd/El%20Cairo_20210223144606.jpg",
     Country: "Egypt",
     Continent: "Africa",
     Description:
@@ -74,7 +77,8 @@ let cities = [
   },
   {
     Name: "Sydney",
-    Photo: "https://images.gostudy.com.au/w:1400/h:800/q:mauto/f:best/ig:avif/id:1619b76004c98e623b2e00397e8e6d0a/https://gostudyaus.es/SYD_header.jpg",
+    Photo:
+      "https://images.gostudy.com.au/w:1400/h:800/q:mauto/f:best/ig:avif/id:1619b76004c98e623b2e00397e8e6d0a/https://gostudyaus.es/SYD_header.jpg",
     Country: "Australia",
     Continent: "Oceania",
     Description:
@@ -91,7 +95,8 @@ let cities = [
   },
   {
     Name: "Rio de Janeiro",
-    Photo: "https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg",
+    Photo:
+      "https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg",
     Country: "Brazil",
     Continent: "South America",
     Description:
@@ -124,7 +129,8 @@ let cities = [
 
   {
     Name: "Cape Town",
-    Photo: "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/14/10/2e/1e/cape-town.jpg",
+    Photo:
+      "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/14/10/2e/1e/cape-town.jpg",
     Country: "South Africa",
     Continent: "Africa",
     Description:
@@ -141,7 +147,8 @@ let cities = [
   },
   {
     Name: "Bangkok",
-    Photo: "https://cdn.pixabay.com/photo/2022/06/08/07/25/bangkok-7249957_1280.jpg",
+    Photo:
+      "https://cdn.pixabay.com/photo/2022/06/08/07/25/bangkok-7249957_1280.jpg",
     Country: "Thailand",
     Continent: "Asia",
     Description:
@@ -158,7 +165,8 @@ let cities = [
   },
   {
     Name: "Moscow",
-    Photo: "https://content.r9cdn.net/rimg/dimg/b0/1c/7746c81c-city-14713-163f5192361.jpg?width=1366&height=768&xhint=1535&yhint=594&crop=true",
+    Photo:
+      "https://content.r9cdn.net/rimg/dimg/b0/1c/7746c81c-city-14713-163f5192361.jpg?width=1366&height=768&xhint=1535&yhint=594&crop=true",
     Country: "Russia",
     Continent: "Europe/Asia",
     Description:
@@ -175,7 +183,8 @@ let cities = [
   },
   {
     Name: "Dubai",
-    Photo: "https://www.cloud-europamundo.com/img/carousel/hd/Dubai_20210328212559.jpg",
+    Photo:
+      "https://www.cloud-europamundo.com/img/carousel/hd/Dubai_20210328212559.jpg",
     Country: "United Arab Emirates",
     Continent: "Asia",
     Description:
@@ -192,7 +201,8 @@ let cities = [
   },
   {
     Name: "Buenos Aires",
-    Photo: "https://images.squarespace-cdn.com/content/v1/52efc94ae4b01409c74273d6/1585836711975-N7XHQ1OEB1VT1Q28Y0NP/BuenosAires-1815x1200.jpg",
+    Photo:
+      "https://images.squarespace-cdn.com/content/v1/52efc94ae4b01409c74273d6/1585836711975-N7XHQ1OEB1VT1Q28Y0NP/BuenosAires-1815x1200.jpg",
     Country: "Argentina",
     Continent: "South America",
     Description:
@@ -210,7 +220,8 @@ let cities = [
 
   {
     Name: "Toronto",
-    Photo: "https://emigraacanada.com/wp-content/uploads/2023/08/1217045260.jpg",
+    Photo:
+      "https://emigraacanada.com/wp-content/uploads/2023/08/1217045260.jpg",
     Country: "Canada",
     Continent: "North America",
     Description:
@@ -227,7 +238,8 @@ let cities = [
   },
   {
     Name: "Seoul",
-    Photo: "https://media.gadventures.com/media-server/cache/c3/86/c386b09360fce27e0a4f77bcbd796dc3.jpg",
+    Photo:
+      "https://media.gadventures.com/media-server/cache/c3/86/c386b09360fce27e0a4f77bcbd796dc3.jpg",
     Country: "South Korea",
     Continent: "Asia",
     Description:
@@ -243,7 +255,8 @@ let cities = [
   },
   {
     Name: "Rome",
-    Photo: "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
+    Photo:
+      "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
     Country: "Italy",
     Continent: "Europe",
     Description:
