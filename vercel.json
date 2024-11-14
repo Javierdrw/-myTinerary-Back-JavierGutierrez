@@ -3,8 +3,7 @@
     "builds": [
       {
         "src": "server.js",
-        "use": "@vercel/node",
-        "port": 3000
+        "use": "@vercel/node"
       }
     ],
     "routes": [
