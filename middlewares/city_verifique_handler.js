@@ -2,10 +2,19 @@ import City from "../models/City.js";
 
 export const city_verifique_handler = async (req, res, next) => {
   const { Name, Description } = req.body;
-
+  Name = Name.toLowerCase();
+  Description = Description.toLowerCase();
   try {
     const cityExisting = await City.findOne({
-      $or: [{ Name }, { Description }],
+      $or: [
+        { Name: { $regex: `^${Name.toLowerCase()}$`, $options: "i" } },
+        {
+          Description: {
+            $regex: `^${Description.toLowerCase()}$`,
+            $options: "i",
+          },
+        },
+      ],
     });
 
     if (cityExisting) {

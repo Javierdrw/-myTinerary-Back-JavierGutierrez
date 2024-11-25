@@ -27,14 +27,10 @@ const readItineraryAll = async (req, res, next) => {
 
 const readItineraryId = async (req, res, next) => {
   try {
-    let { _id } = req.params;
-    console.log(_id);
+    let { id } = req.params;
 
-    let city = await Itinerary.findById(_id);
-    if (!city) {
-      return res.status(404).json({ message: "City not found" });
-    }
-
+    let city = await Itinerary.findById(id);
+ 
     return res.status(200).json({
       response: city,
     });

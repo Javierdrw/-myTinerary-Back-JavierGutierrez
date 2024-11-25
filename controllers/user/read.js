@@ -43,11 +43,6 @@ const readUserItinerary = async (req, res, next) => {
       "itineraries"
     );
 
-    if (!itineraries || itineraries.length === 0) {
-      return res
-        .status(404)
-        .json({ message: "No itineraries found for this city." });
-    }
 
     res.status(200).json({ response: itineraries });
   } catch (error) {
