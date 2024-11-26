@@ -1,8 +1,9 @@
 import joi from "joi-oid";
 
 export const schemaCreateUser = joi.object({
-  Photo: joi.string().required().min(3).max(300).messages({
+  Photo: joi.string().required().uri().min(3).max(300).messages({
     "string.base": "Photo is required",
+    "string.uri": "Photo must be a valid URL",
     "string.min": "Photo must be at least 3 characters long",
     "string.max": "Photo cannot be longer than 300 characters",
     "any.required": "Photo is required",
